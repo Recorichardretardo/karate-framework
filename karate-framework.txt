@@ -1,0 +1,19 @@
+https://github.com/intuit/karate
+
+
+mvn archetype:generate \
+-DarchetypeGroupId=com.intuit.karate \
+-DarchetypeArtifactId=karate-archetype \
+-DarchetypeVersion=1.1.0 \
+-DgroupId=com.mycompany \
+-DartifactId=myproject
+
+
+https://github.com/Postavshik/karate-dsl-class/
+
+
+mvn test "-Dkarate.options=--tags @debug" -> execute only @debug used
+
+mvn test -> executes all
+
+* time taking more
